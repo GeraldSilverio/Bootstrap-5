@@ -1,0 +1,13 @@
+.card-shadow{
+    box-shadow: 0 0 10px white;
+    cursor: pointer;
+}
+
+/* Añade estas reglas al final de tu archivo de estilos */
+.move {
+    transition: transform 0.5s ease; /* Ajusta la duración y el tipo de transición según tus preferencias */
+}
+
+.move:hover {
+    transform: scale(1.05); /* Puedes ajustar el valor según el nivel de agrandamiento que desees */
+}
